@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<h1>Welcome to Laravel</h1>
-<p>This is the Laravel application from "Laravel From Scratch" Youtube series</p>
+<h1>Services</h1>
+<p>This is the services pages</p>
 </body>
 </html>
