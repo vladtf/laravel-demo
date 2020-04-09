@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>{{config('app.name','LSAPP')}}</title>
-
 </head>
 
 <body>
     @include('inc.navbar')
     <div class="container">
-    @yield('content')
+        @include('inc.messages')
+        @yield('content')
     </div>
 </body>
 
