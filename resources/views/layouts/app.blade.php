@@ -8,6 +8,7 @@
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>{{config('app.name','LSAPP')}}</title>
+
 </head>
 
 <body>
@@ -16,6 +17,12 @@
         @include('inc.messages')
         @yield('content')
     </div>
+
+    <script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>">
+      <script>
+        CKEDITOR.replace( 'article-ckeditor' );
+
+    </script>
 </body>
 
 </html>
