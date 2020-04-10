@@ -18,10 +18,9 @@
         @yield('content')
     </div>
 
-    <script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>">
+    <script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
       <script>
         CKEDITOR.replace( 'article-ckeditor' );
-
     </script>
 </body>
 
