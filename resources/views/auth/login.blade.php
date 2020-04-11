@@ -51,7 +51,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
+                        <div class="form-group row mb-2">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
@@ -63,6 +63,9 @@
                                     </a>
                                 @endif
                             </div>
+                        </div>
+                        <div class="class-form">
+                            <a href="login/github" class="btn btn-secondary btn-block font-weight-bold">Sign in with Github</a>
                         </div>
                     </form>
                 </div>

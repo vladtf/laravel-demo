@@ -21,8 +21,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
-<body  style="background-image: url('/storage/background/bg.jpg')">
-@include('inc.navbar').
+<body  style="background-image: url('/storage/background/bg.jpg');">
+@include('inc.navbar')
 <main class="py-lg-3">
     <div>
         <div class="container" >
