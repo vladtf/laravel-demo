@@ -21,22 +21,22 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
-
-
-<body>
-    @include('inc.navbar')
-    <main class="py-4">
-        <div class="container">
+<body  style="background-image: url('/storage/background/bg.jpg')">
+@include('inc.navbar').
+<main class="py-lg-3">
+    <div>
+        <div class="container" >
             @include('inc.messages')
             @yield('content')
         </div>
+    </div>
+</main>
 
-    </main>
 
 <!-- CkEditor -->
 <script src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
 <script>
-    CKEDITOR.replace( 'article-ckeditor' );
+    CKEDITOR.replace('article-ckeditor');
 </script>
 </body>
 
