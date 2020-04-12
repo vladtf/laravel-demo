@@ -44,3 +44,7 @@ Route::get('/login/github', 'Auth\LoginController@github');
 
 Route::get('/login/github/redirect', 'Auth\LoginController@githubRedirect');
 
+Route::get('/login/facebook', 'Auth\LoginController@facebook');
+
+Route::get('/login/facebook/redirect', 'Auth\LoginController@facebookRedirect');
+

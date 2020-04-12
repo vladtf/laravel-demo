@@ -65,7 +65,12 @@
                             </div>
                         </div>
                         <div class="class-form">
-                            <a href="login/github" class="btn btn-secondary btn-block font-weight-bold">Sign in with Github</a>
+                            <a href="login/github" class="btn btn-block btn-social btn-github">
+                                <i class="fa fa-github"></i> Sign in with Github
+                            </a>
+                            <a href="login/facebook" class="btn btn-block btn-social btn-facebook">
+                                <i class="fa fa-facebook-official"></i> Continue with Facebook
+                            </a>
                         </div>
                     </form>
                 </div>
